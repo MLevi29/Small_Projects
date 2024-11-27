@@ -35,7 +35,6 @@ window.rowconfigure(0, weight=1)
 
 # Colocar números
 
-
 ttk.Label(mainframe, text='Digite um número').grid(column=1, row=1)
 number1 = StringVar()
 num1 = ttk.Entry(mainframe, textvariable=number1).grid(column=2, row=1)
@@ -54,7 +53,7 @@ ttk.Button(mainframe, text='Multiplication', command=multiplication).grid(column
 
 ttk.Button(mainframe, text='Division', command=division).grid(column=4, row=3)
 
-ttk.Button(mainframe, text='Quit', command=window.destroy).grid(column=3, row=4)
+ttk.Button(mainframe, text='Quit', command=window.destroy).grid(column=4, row=4)
 
 window.mainloop()
 
